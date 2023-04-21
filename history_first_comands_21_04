@@ -1,0 +1,37 @@
+   0 cd /home/
+   1 mkdir animals
+   2 cd animals/
+   3 mkdir dogs
+   4 mkdir cats
+   5 mkdir fish
+   6 cd dogs
+   7 touch pluto.txt
+   8 cd .
+   9 cd ..
+  10 cd cats
+  11 touch garfild.txt
+  12 cd /home/animals/fish
+  13 touch nemo.txt
+  14 cd /home/animals/
+  15 ls
+  16 tree
+  17 cd .
+  18 cd ..
+  19 mkdir humans
+  20 tree
+  21 cd ..
+  22 cd /tmp/
+  23 touch adam.txt
+  24 touch evA.txt
+  25 ls
+  26 cp /home/tmp/adam.txt /home/humans/adam.txt
+  27 ls
+  28 cp /tmp/adam.txt /home/humans/adam.txt
+  29 mv /tmp/evA.txt /opt/eve.txt
+  30 ls
+  31 mv /opt/eve.txt /home/humans/eve.txt
+  32 ls
+  33 cd ..
+  34 cd /home/humans/
+  35 tree
+  36 history > history_first_comands_21_04
